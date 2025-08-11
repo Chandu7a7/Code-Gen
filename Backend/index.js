@@ -20,7 +20,7 @@ app.use(express.json()) ;
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://codeecho.vercel.app', // to change 
+  'https://code-gen-eight.vercel.app', // to change 
 ];
 
 app.use(cors({

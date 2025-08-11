@@ -8,7 +8,7 @@ import { VscOpenPreview } from "react-icons/vsc";
 import { IoBulb } from "react-icons/io5";
 import { PiFlowArrowBold } from "react-icons/pi";
 import PricingSection from './Pricing';
-import logoimg from '../Others/Assets/codeecho-logo.png'
+import logoimg from '../Others/Assets/codegenius.png'
 import TypingEffect from '../Others/Typing/typing'
 import demo from '../Others/Assets/codeecho-demo.mp4'
 import { Link, useNavigate } from 'react-router-dom';
@@ -166,7 +166,7 @@ const Landing = () => {
       <header className="navbar">
 
         <div className="nav-logo">
-          <img src={logoimg} alt="CodeEcho" />
+          <img src={logoimg} alt="Code Genius" />
         </div>
 
         <div className='nav-round'>
@@ -227,16 +227,16 @@ const Landing = () => {
 
         <div className="texts-outer">
           <div className="text-round">
-            <p><span><SiGooglegemini /></span> Gemini x CodeEcho: Dev Revolution</p>
+            <p><span><SiGooglegemini /></span> Gemini x Code Genius: Dev Revolution</p>
           </div>
           <div className="intro">
             <p>AI-Driven Coding<span> Companion</span></p>
           </div>
           <div className="tagline">
-            <p>Transform complex code into clear insights with CodeEcho's intelligent AI tools.</p>
+            <p>Transform complex code into clear insights with Code Genius intelligent AI tools.</p>
           </div>
           <div className="para">
-            <p>CodeEcho is your intelligent coding companion that brings clarity and ease to development</p>
+            <p>Code Genius is your intelligent coding companion that brings clarity and ease to development</p>
           </div>
           <div className="landing-btn">
           <input type="text" placeholder='type a message' onChange={(e) => setMessage(e.target.value)} value={message}/>
@@ -348,7 +348,7 @@ const Landing = () => {
 
       <div className="text-wrapper">
         <div className="shadow-dance-container">
-            <h1 className="shadow-dance-text">CodeEcho</h1>
+            <h1 className="shadow-dance-text">Code Genius</h1>
         </div>
       </div>
 

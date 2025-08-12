@@ -10,7 +10,7 @@ import { PiFlowArrowBold } from "react-icons/pi";
 import PricingSection from './Pricing';
 import logoimg from '../Others/Assets/codegenius.png'
 import TypingEffect from '../Others/Typing/typing'
-import demo from '../Others/Assets/codeecho-demo.mp4'
+import demo from '../Others/Assets/codegenius.webm'
 import { Link, useNavigate } from 'react-router-dom';
 import { FaCode } from "react-icons/fa";
 import { VscDebugConsole } from "react-icons/vsc";

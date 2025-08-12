@@ -31,7 +31,7 @@ const Chat = () => {
 
   const [chartcontent , setChartContent] = useState(`
     flowchart TD
-    A[CodeEcho]
+    A[CodeGenius]
 
   `); 
   const [tempchart , setTempChart] = useState('') ; 
@@ -129,7 +129,7 @@ const Chat = () => {
       <header className="chat-header">
         <div className="chat-title">
           <p className='chat-p'> ChatBot</p>
-          <p className='chat-by'>By CodeEcho</p>
+          <p className='chat-by'>By CodeGenius</p>
         </div>
         <div className="chat-text">
           <p>Heyy! I am expert in {topic} ask me anything about this topic</p>
@@ -171,7 +171,7 @@ const Chat = () => {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={handleKeyDown}
-                placeholder="Ask Codeecho"
+                placeholder="Ask CodeGenius"
               />
               <button onClick={handleSend} disabled={loading}> <IoSend /> </button>
             </div>

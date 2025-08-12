@@ -70,7 +70,7 @@ const CodeSummarizer = () => {
 
         <div className="sum-title">
           <p className='sum-p'>Code Summarizer</p>
-          <p className="sum-by">By CodeEcho</p>
+          <p className="sum-by">By CodeGenius</p>
         </div>
 
         <div className="sum-controls">
